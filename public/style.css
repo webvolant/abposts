@@ -1,0 +1,35 @@
+/*************** SELECT IN ADMIN WIDTH 100% ******************************************/
+.block div.btn-group, .block div.btn-group-vertical{
+    display: inline-grid;
+    width: 100%;
+}
+
+.block button, .block ul, .block .btn-group ul{
+    width: 100%;
+}
+
+.block .btn-group-vertical>.btn.active, .block .btn-group-vertical>.btn:active, .block .btn-group-vertical>.btn:focus, .block .btn-group-vertical>.btn:hover,.block .btn-group>.btn.active,.block .btn-group>.btn:active, .block .btn-group>.btn:focus, .block .btn-group>.btn:hover {
+    z-index: 1;
+}
+
+
+
+/*************** help  ******************************************/
+.divider{
+    height:10px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*************** admin elements  ******************************************/
+
+.admin-tools{
+    margin-bottom: 15px;
+}
+
+.logo img{
+    height: 120px;
+}
